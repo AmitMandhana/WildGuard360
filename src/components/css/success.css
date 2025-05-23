@@ -1,0 +1,73 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    overflow: hidden;
+    position: relative;
+} */
+
+.payment-success-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency to see the animation */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    margin: 74px auto;
+}
+
+.animation-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* overflow: hidden; */
+}
+
+.fireworks-animation {
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Disable interaction */
+}
+
+.message-container {
+    position: relative;
+    z-index: 10;
+}
+
+.message-container h1 {
+    color: #28a745;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.message-container p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.continue-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.continue-button:hover {
+    background-color: #218838;
+}
